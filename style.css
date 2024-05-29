@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+    --Black: #151515;
+    --Green: #4ee1a0;
+    --Dark-Grey: #242424;
+    --Grey: #d9d9d9;
+    --White: #ffffff;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--Black);
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+
+nav h2 {
+    color: var(--White);
+    font-size: 32px;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+    z-index: 2;
+}
+
+#nav-links li {
+    margin: 0 15px;
+}
+
+.rings-image {
+    position: absolute;
+    left: -120px;
+    top: 110px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.left-content h1 {
+    color: var(--White);
+    font-size: 88px;
+    line-height: 86px;
+    z-index: 2;
+    position: relative;
+}
+
+.big-line {
+    height: 6px;
+    width: 515px;
+    background-color: var(--Green);
+    position: relative;
+    right: -148px;
+    margin-top:4px;
+}
+
+.subtitle {
+    color: var(--Grey);
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 420px;
+    margin-top: 36px;
+    margin-bottom: 65px;
+    font-weight: 500;
+}
+
+.contact-me a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.fine-line {
+    height: 2px;
+    width: 120px;
+    background-color: var(--Green);
+    position: relative;
+    top: 10px;
+}
+
+.right-content img {
+    max-width: 455px;
+    height: 720px;
+    position: absolute;
+    right: 10%;
+    top: 1px;
+    z-index: 1;
+}
+
+.tech-languages {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 300px;
+    color: var(--White);
+    gap: 50px;
+}
+
+.language-card h1 {
+    font-size: 48px;
+}
+
+.language-card p {
+    font-size: 18px;
+    color: var(--Grey);
+}
+
+.second-rings-image {
+    position: absolute;
+    top: 1020px;
+    right: -270px;
+}
