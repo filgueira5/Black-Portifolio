@@ -16,8 +16,6 @@
 body {
     height: 100vh;
     background-color: var(--Black);
-    padding-left: 10%;
-    padding-right: 10%;
     overflow-x: hidden;
 }
 
@@ -110,6 +108,7 @@ nav h2 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 300px;
+    margin-bottom: 60px;
     color: var(--White);
     gap: 50px;
 }
@@ -127,4 +126,134 @@ nav h2 {
     position: absolute;
     top: 1020px;
     right: -270px;
+}
+
+.secondary-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+
+.secondary-nav h1 {
+    color: var(--White);
+    font-size: 88px;
+}
+
+.projects-card-area {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: var(--White);
+    gap: 70px;
+}
+
+.project-card img {
+    max-width: 540px;
+    height: 400px;
+}
+
+.projects-card-area h1 {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.project-technologies {
+    color: var(--Grey);
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact-area {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 675px;
+}
+
+.contact-area h1 {
+    color: var(--White);
+    font-size: 88px;
+    margin-bottom: 24px;
+}
+
+.contact-area p {
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--Grey);
+}
+
+.third-rings-image {
+    position: absolute;
+    left: -230px;
+    margin-top: 30px;
+}
+
+nav,header,#about-section,#projects { 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact-area {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left-side-contact, .right-side-contact {
+    margin-top: 83px;
+}
+
+.right-side-contact input {
+    background-color: var(--Dark-Grey);
+    padding: 20px;
+    width: 445px;
+    color: var(--Grey);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.line-form {
+    width: 445px;
+    height: 1px;
+    background-color: var(--White);
+    margin-bottom: 15px;
+}
+
+.separator-line {
+    width: 500px;
+    height: 2px;
+    background-color: var(--White);
+    text-align: center;
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.secondary-nav h2 {
+    color: var(--White);
+    font-size: 32px;
+}
+
+#secondary-nav-links {
+    display: flex;
+    list-style: none;
+}
+
+#secondary-nav-links li {
+    margin: 0 15px;
 }
