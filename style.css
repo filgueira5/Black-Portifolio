@@ -168,12 +168,11 @@ nav h2 {
 }
 
 .contact-area {
-    padding-left: 0%;
-    padding-right: 0%;
+    background-color: var(--Dark-Grey);
     margin-top: 150px;
-    display: flex;
-    justify-content: space-between;
     height: 675px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .contact-area h1 {
@@ -190,6 +189,12 @@ nav h2 {
     color: var(--Grey);
 }
 
+.top-area-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
 .third-rings-image {
     position: absolute;
     left: -230px;
@@ -197,11 +202,6 @@ nav h2 {
 }
 
 nav,header,#about-section,#projects { 
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.contact-area {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -220,6 +220,16 @@ nav,header,#about-section,#projects {
     border: none;
 }
 
+#message a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: right;
+    margin-top: 12px;
+}
+
 .line-form {
     width: 445px;
     height: 1px;
@@ -228,32 +238,30 @@ nav,header,#about-section,#projects {
 }
 
 .separator-line {
-    width: 500px;
+    width: 1150px;
     height: 2px;
     background-color: var(--White);
     text-align: center;
+    margin-bottom: 45px;
 }
 
-.secondary-nav {
+.third-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 120px;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
-.secondary-nav h2 {
+.third-nav h2 {
     color: var(--White);
     font-size: 32px;
 }
 
-#secondary-nav-links {
+#third-nav-links {
     display: flex;
     list-style: none;
 }
 
-#secondary-nav-links li {
+#third-nav-links li {
     margin: 0 15px;
 }
