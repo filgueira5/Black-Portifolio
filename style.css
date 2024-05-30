@@ -265,3 +265,16 @@ nav,header,#about-section,#projects {
 #third-nav-links li {
     margin: 0 15px;
 }
+
+.contact-me a:hover, #message a:hover{
+    transition: 0.9s;
+    color: var(--Green);
+}
+
+#third-nav-links a:hover {
+    color: var(--Green);
+}
+
+.language-card.active img{
+    background-color: #151515;
+}
